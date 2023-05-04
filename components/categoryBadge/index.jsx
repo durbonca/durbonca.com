@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import randomColor from 'randomcolor';
 
-const categoryBadge = ({ id, title, setActiveCategories }) => {
+const CategoryBadge = ({ id, title, setActiveCategories }) => {
   const [color, setColor] = useState('');
   useEffect(() => {
     setColor(randomColor({ luminosity: 'light' }));
@@ -29,4 +29,4 @@ const categoryBadge = ({ id, title, setActiveCategories }) => {
   );
 };
 
-export default categoryBadge;
+export default CategoryBadge;
