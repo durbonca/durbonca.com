@@ -23,7 +23,7 @@ export default function Resume() {
           <div className="w-full border-solid border-b-2 border-black" />
           <h2 className="font-bold my-4">Career Summary</h2>
           <p className="my-4">
-            Computer Engineer, 3 years of experience in application development focused on the frontend area oriented to
+            Computer Engineer graduate, 4 years of experience in application development focused on the frontend area oriented to
             web development. Experience with React, Express, NodeJS and Mongo under the framework of agile methodologies
             and deployment of modern applications with GCP and Netlify.
           </p>
@@ -34,12 +34,15 @@ export default function Resume() {
             <li className="mx-7">CSS</li>
             <li className="mx-7">JavaScript</li>
             <li className="mx-7">React</li>
+            <li className="mx-7">NEXT JS</li>
+            <li className="mx-7">Angular</li>
+            <li className="mx-7">React Native</li>
             <li className="mx-7">Mongo</li>
             <li className="mx-7">Express</li>
             <li className="mx-7">SASS CSS</li>
             <li className="mx-7">Tailwind</li>
             <li className="mx-7">Material UI</li>
-            <li className="mx-7">NEXT JS</li>
+            <li className="mx-7">TanStack Query</li>
             <li className="mx-7">Formik</li>
             <li className="mx-7">Gastby</li>
             <li className="mx-7">Wordpress</li>
@@ -61,7 +64,31 @@ export default function Resume() {
 
           <div className="mt-8 w-full">
             <div className="flex justify-between gap-6">
-              <h3 className="font-bold">Mattel, Inc</h3>
+              <h3 className="font-bold"><a href='https://www.gonoodle.com/' target='_blank'>Gonoodle</a></h3>
+              <p className="text-xs">May. 2023 – Oct. 2024</p>
+            </div>
+            <p className="italic font-light text-xs">Web UI Developer</p>
+            <ul className="list-disc text-xs pt-2 pl-4">
+              <li className="my-2">
+              As a Globant collaborator, I contributed to GoNoodle mission by implementing new features
+              and making improvements to their video application for children. This involved working primarily with Next.js 
+              and Tailwind to enhance the platform performance, user experience, and responsiveness, ensuring an engaging 
+              and seamless experience for young users. Our team followed agile methodologies to deliver high-quality 
+              updates in a fast-paced environment.
+              </li>
+            </ul>
+
+            <p className="italic font-light text-xs">Used Techs</p>
+            <ul className="flex flex-wrap mb-4">
+              <li className="mx-7">NextJS</li>
+              <li className="mx-7">Tailwind CSS</li>
+              <li className="mx-7">TanStack Query</li>
+            </ul>
+          </div>
+
+          <div className="mt-8 w-full">
+            <div className="flex justify-between gap-6">
+              <h3 className="font-bold"><a href='https://shop.mattel.com/' target='_blank'>Mattel</a>, Inc</h3>
               <p className="text-xs">Feb. 2023 – May. 2023</p>
             </div>
             <p className="italic font-light text-xs">Web UI Developer</p>
@@ -88,7 +115,7 @@ export default function Resume() {
 
           <div className="mt-8 w-full">
             <div className="flex justify-between gap-6">
-              <h3 className="font-bold">TOTAL WINE & MORE, Orlando, US</h3>
+              <h3 className="font-bold"><a href='https://www.totalwine.com/' target='_blank'>TOTAL WINE & MORE</a>, Orlando, US</h3>
               <p className="text-xs">Mar. 2022 – Dic. 2022</p>
             </div>
             <p className="italic font-light text-xs">React Frontend Developer</p>
@@ -116,7 +143,7 @@ export default function Resume() {
 
           <div className="mt-8">
             <div className="flex w-full justify-between gap-6">
-              <h3 className="font-bold">GLOBANT, Santiago, Chile</h3>
+              <h3 className="font-bold"><a href='https://www.globant.com/' target='_blank'>GLOBANT</a>, Santiago, Chile</h3>
               <p className="text-xs">Feb. 2022 – Nowadays</p>
             </div>
             <p className="italic font-light text-xs">Web UI Developer</p>
@@ -124,7 +151,7 @@ export default function Resume() {
 
           <div className="mt-8 w-full">
             <div className="flex justify-between gap-6">
-              <h3 className="font-bold">AMICAR, Santiago, Chile</h3>
+              <h3 className="font-bold"><a href='https://www.amicar.cl/' target='_blank'>AMICAR</a>, Santiago, Chile</h3>
               <p className="text-xs">Jun. 2021 – Feb. 2022</p>
             </div>
             <p className="italic font-light text-xs">Frontend Developer</p>
@@ -158,7 +185,7 @@ export default function Resume() {
 
           <div className="mt-8 w-full">
             <div className="flex justify-between gap-6">
-              <h3 className="font-bold">BACO Restaurant, Santiago, Chile</h3>
+              <h3 className="font-bold"><a href='https://www.baco.cl/' target='_blank'>BACO Restaurant</a>, Santiago, Chile</h3>
               <p className="text-xs">Feb. 2020 – May. 2021</p>
             </div>
             <p className="italic font-light text-xs">Web Developer</p>
@@ -189,7 +216,7 @@ export default function Resume() {
 
           <div className="mt-8 w-full">
             <div className="flex justify-between gap-6">
-              <h3 className="font-bold">SMARTBOT, Santiago, Chile</h3>
+              <h3 className="font-bold"><a href='https://www.smartbot.la/' target='_blank'>SMARTBOT</a>, Santiago, Chile</h3>
               <p className="text-xs">Feb. 2017 – May. 2020</p>
             </div>
             <p className="italic font-light text-xs">Technical Developer</p>
